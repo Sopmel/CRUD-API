@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "ESNext", // Use ESNext or ES6 to enable ES module syntax
+    "target": "es2016", // Set the target ECMAScript version
+    "moduleResolution": "node", // This is usually the default, but make sure it's set
+    "outDir": "./dist", // Where to output the compiled JavaScript files
+    "rootDir": "./src", // Where your source TypeScript files are
+    "strict": true, // Enable strict type-checking options
+    "esModuleInterop": true, // Allows default imports from CommonJS modules
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+  },
+  "include": [
+    "src/**/*.ts"
+  ], // Include all TypeScript files in the src directory
+  "exclude": [
+    "node_modules"
+  ] // Exclude node_modules from compilation
+}
